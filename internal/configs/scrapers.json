@@ -1,0 +1,24 @@
+{
+  "sites": {
+    "1337x": {
+      "base_url": "https://www.url.domain",
+      "search_path": "/search/{query}/1/",
+      "domains": ["url.domain", "www.url.domain"]
+    },
+    "rarbg": {
+      "base_url": "https://www.url.domain",
+      "search_path": "/search/?search={query}",
+      "domains": ["url.domain", "www.url.domain"]
+    },
+    "torrent9": {
+      "base_url": "https://www.url.domain",
+      "search_path": "/recherche/{query}",
+      "domains": ["url.domain,", "www.url.domain"]
+    },
+    "nyaa": {
+      "base_url": "https://www.url.domain",
+      "search_path": "/?f=0&c=0_0&q={query}",
+      "domains": ["url.domain", "www.url.domain"]
+    }
+  }
+}
