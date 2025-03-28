@@ -20,7 +20,7 @@ A concurrent torrent search engine that aggregates results from multiple torrent
 ```bash
 git clone https://github.com/cterlecki/go-torrent-go.git
 cd go-torrent-go
-go build -o go-torrent-go cmd/main.go
+go build -o go-torrent-go main.go
 ```
 
 ## Configuration
