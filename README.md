@@ -1,4 +1,4 @@
-# Torrent Scraper
+# Go Torrent Go
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -18,9 +18,9 @@ A concurrent torrent search engine that aggregates results from multiple torrent
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/torrent-scraper.git
-cd torrent-scraper
-go build -o torrent-scraper cmd/main.go
+git clone https://github.com/cterlecki/go-torrent-go.git
+cd go-torrent-go
+go build -o go-torrent-go cmd/main.go
 ```
 
 ## Configuration
@@ -45,10 +45,10 @@ Edit configs/scrapers.json (replace all placeholder values):
 ## Usage
 ```bash
 # Basic search (terminal output)
-./torrent-scraper -q "Interstellar"
+./go-torrent-go -q "Interstellar"
 
 # JSON output with English results and magnets
-./torrent-scraper -q "Dune" -lang english -m -limit 5 -o json
+./go-torrent-go -q "Dune" -lang english -m -limit 5 -o json
 ```
 
 ## Available Flags
