@@ -2,9 +2,9 @@ package scrapers
 
 import (
 	"fmt"
+	"github.com/cterlecki/go-torrent-go/internal/configs"
+	"github.com/cterlecki/go-torrent-go/internal/models"
 	"github.com/gocolly/colly/v2"
-	"main/internal/configs"
-	"main/internal/models"
 	"strings"
 	"time"
 )

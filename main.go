@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
+	"github.com/cterlecki/go-torrent-go/internal/configs"
+	"github.com/cterlecki/go-torrent-go/internal/core"
+	"github.com/cterlecki/go-torrent-go/internal/models"
 	"log"
-	"main/internal/configs"
-	"main/internal/core"
-	"main/internal/models"
 	"os"
 	"strings"
 )

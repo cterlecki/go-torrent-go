@@ -2,7 +2,7 @@ package configs
 
 import (
 	"fmt"
-	"main/internal/models"
+	"github.com/cterlecki/go-torrent-go/internal/models"
 )
 
 func PrintAvailableLanguages() {

@@ -1,4 +1,4 @@
-module main
+module github.com/cterlecki/go-torrent-go
 
 go 1.24.0
 

@@ -1,9 +1,9 @@
 package core
 
 import (
+	"github.com/cterlecki/go-torrent-go/internal/models"
+	"github.com/cterlecki/go-torrent-go/internal/scrapers"
 	"log"
-	"main/internal/models"
-	"main/internal/scrapers"
 	"sort"
 	"sync"
 )

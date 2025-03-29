@@ -1,24 +1,24 @@
 {
   "sites": {
     "1337x": {
-      "base_url": "https://www.url.domain",
+      "base_url": "https://1337x.to",
       "search_path": "/search/{query}/1/",
-      "domains": ["url.domain", "www.url.domain"]
+      "domains": ["1337x.to", "www.1337x.to"]
     },
     "rarbg": {
-      "base_url": "https://www.url.domain",
+      "base_url": "https://en.rarbg.gg",
       "search_path": "/search/?search={query}",
-      "domains": ["url.domain", "www.url.domain"]
+      "domains": ["en.rarbg.gg", "en.rarbg.gg"]
     },
     "torrent9": {
-      "base_url": "https://www.url.domain",
+      "base_url": "https://www.nortorrent3.com",
       "search_path": "/recherche/{query}",
-      "domains": ["url.domain,", "www.url.domain"]
+      "domains": ["www.nortorrent3.com", "nortorrent3.com"]
     },
     "nyaa": {
-      "base_url": "https://www.url.domain",
+      "base_url": "https://nyaa.si",
       "search_path": "/?f=0&c=0_0&q={query}",
-      "domains": ["url.domain", "www.url.domain"]
+      "domains": ["nyaa.si"]
     }
   }
 }

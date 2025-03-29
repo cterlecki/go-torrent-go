@@ -1,7 +1,7 @@
 package scrapers
 
 import (
-	"main/internal/models"
+	"github.com/cterlecki/go-torrent-go/internal/models"
 	"strconv"
 	"strings"
 )
