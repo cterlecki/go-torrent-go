@@ -63,12 +63,13 @@ Flag	Description	Example
 
 ## Project Structure
 ```bash
-configs/
-└── scrapers.json       # Site configurations (REQUIRED SETUP)
+
 internal/
-├── core/              # Search logic
-├── models/            # Data structures
-└── scrapers/          # Site implementations
+├── configs/
+    └── scrapers.json       # Site configurations (REQUIRED SETUP)
+├── core/                   # Search logic
+├── models/                 # Data structures
+└── scrapers/               # Site implementations
     ├── x1337.go
     ├── rarbg.go
     └── torrent9.go
